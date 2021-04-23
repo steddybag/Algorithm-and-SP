@@ -34,5 +34,6 @@ for test_case in range(1, T + 1):
         if not chk_cloud(st,en):
             #다른 cloud라면 = cycle이 없다면
             union(st,en)
+
             res+=w
     print('#{} {}'.format(test_case,res))
